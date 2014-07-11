@@ -1,0 +1,1165 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.2.14
+3 info using node@v0.10.0
+4 verbose read json /usr/local/google/home/mkearney/web-fundamentals-monetization/web-starter-kit/package.json
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/usr/local/google/home/mkearney/web-fundamentals-monetization/web-starter-kit',
+6 verbose install   [ 'browser-sync',
+6 verbose install     'del',
+6 verbose install     'gulp',
+6 verbose install     'gulp-autoprefixer',
+6 verbose install     'gulp-cache',
+6 verbose install     'gulp-changed',
+6 verbose install     'gulp-csso',
+6 verbose install     'gulp-flatten',
+6 verbose install     'gulp-if',
+6 verbose install     'gulp-imagemin',
+6 verbose install     'gulp-jshint',
+6 verbose install     'gulp-load-plugins',
+6 verbose install     'gulp-minify-html',
+6 verbose install     'gulp-replace',
+6 verbose install     'gulp-ruby-sass',
+6 verbose install     'gulp-size',
+6 verbose install     'gulp-uglify',
+6 verbose install     'gulp-uncss',
+6 verbose install     'gulp-useref',
+6 verbose install     'jshint-stylish',
+6 verbose install     'opn',
+6 verbose install     'psi',
+6 verbose install     'require-dir',
+6 verbose install     'run-sequence' ] ]
+7 verbose from cache /usr/local/google/home/mkearney/web-fundamentals-monetization/web-starter-kit/package.json
+8 info preinstall @
+9 verbose from cache /usr/local/google/home/mkearney/web-fundamentals-monetization/web-starter-kit/package.json
+10 verbose readDependencies using package.json deps
+11 verbose cache add [ 'gulp@^3.8.5', null ]
+12 verbose cache add name=undefined spec="gulp@^3.8.5" args=["gulp@^3.8.5",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'gulp@^3.8.5',
+13 verbose parsed url   path: 'gulp@^3.8.5',
+13 verbose parsed url   href: 'gulp@^3.8.5' }
+14 verbose cache add name="gulp" spec="^3.8.5" args=["gulp","^3.8.5"]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: '^3.8.5',
+15 verbose parsed url   path: '^3.8.5',
+15 verbose parsed url   href: '^3.8.5' }
+16 verbose addNamed [ 'gulp', '^3.8.5' ]
+17 verbose addNamed [ null, null ]
+18 verbose cache add [ 'gulp-autoprefixer@^0.0.8', null ]
+19 verbose cache add name=undefined spec="gulp-autoprefixer@^0.0.8" args=["gulp-autoprefixer@^0.0.8",null]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'gulp-autoprefixer@^0.0.8',
+20 verbose parsed url   path: 'gulp-autoprefixer@^0.0.8',
+20 verbose parsed url   href: 'gulp-autoprefixer@^0.0.8' }
+21 verbose cache add name="gulp-autoprefixer" spec="^0.0.8" args=["gulp-autoprefixer","^0.0.8"]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: '^0.0.8',
+22 verbose parsed url   path: '^0.0.8',
+22 verbose parsed url   href: '^0.0.8' }
+23 verbose addNamed [ 'gulp-autoprefixer', '^0.0.8' ]
+24 verbose addNamed [ null, null ]
+25 verbose cache add [ 'gulp-cache@^0.2.0', null ]
+26 verbose cache add name=undefined spec="gulp-cache@^0.2.0" args=["gulp-cache@^0.2.0",null]
+27 verbose parsed url { protocol: null,
+27 verbose parsed url   slashes: null,
+27 verbose parsed url   auth: null,
+27 verbose parsed url   host: null,
+27 verbose parsed url   port: null,
+27 verbose parsed url   hostname: null,
+27 verbose parsed url   hash: null,
+27 verbose parsed url   search: null,
+27 verbose parsed url   query: null,
+27 verbose parsed url   pathname: 'gulp-cache@^0.2.0',
+27 verbose parsed url   path: 'gulp-cache@^0.2.0',
+27 verbose parsed url   href: 'gulp-cache@^0.2.0' }
+28 verbose cache add name="gulp-cache" spec="^0.2.0" args=["gulp-cache","^0.2.0"]
+29 verbose parsed url { protocol: null,
+29 verbose parsed url   slashes: null,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: null,
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: null,
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: '^0.2.0',
+29 verbose parsed url   path: '^0.2.0',
+29 verbose parsed url   href: '^0.2.0' }
+30 verbose addNamed [ 'gulp-cache', '^0.2.0' ]
+31 verbose addNamed [ null, null ]
+32 silly lockFile 5512a217-gulp-3-8-5 gulp@^3.8.5
+33 verbose lock gulp@^3.8.5 /usr/local/google/home/mkearney/.npm/5512a217-gulp-3-8-5.lock
+34 verbose cache add [ 'gulp-changed@^0.4.0', null ]
+35 verbose cache add name=undefined spec="gulp-changed@^0.4.0" args=["gulp-changed@^0.4.0",null]
+36 verbose parsed url { protocol: null,
+36 verbose parsed url   slashes: null,
+36 verbose parsed url   auth: null,
+36 verbose parsed url   host: null,
+36 verbose parsed url   port: null,
+36 verbose parsed url   hostname: null,
+36 verbose parsed url   hash: null,
+36 verbose parsed url   search: null,
+36 verbose parsed url   query: null,
+36 verbose parsed url   pathname: 'gulp-changed@^0.4.0',
+36 verbose parsed url   path: 'gulp-changed@^0.4.0',
+36 verbose parsed url   href: 'gulp-changed@^0.4.0' }
+37 verbose cache add name="gulp-changed" spec="^0.4.0" args=["gulp-changed","^0.4.0"]
+38 verbose parsed url { protocol: null,
+38 verbose parsed url   slashes: null,
+38 verbose parsed url   auth: null,
+38 verbose parsed url   host: null,
+38 verbose parsed url   port: null,
+38 verbose parsed url   hostname: null,
+38 verbose parsed url   hash: null,
+38 verbose parsed url   search: null,
+38 verbose parsed url   query: null,
+38 verbose parsed url   pathname: '^0.4.0',
+38 verbose parsed url   path: '^0.4.0',
+38 verbose parsed url   href: '^0.4.0' }
+39 verbose addNamed [ 'gulp-changed', '^0.4.0' ]
+40 verbose addNamed [ null, null ]
+41 silly lockFile 55b4808a-gulp-changed-0-4-0 gulp-changed@^0.4.0
+42 verbose lock gulp-changed@^0.4.0 /usr/local/google/home/mkearney/.npm/55b4808a-gulp-changed-0-4-0.lock
+43 silly lockFile 3fd85b9a-gulp-autoprefixer-0-0-8 gulp-autoprefixer@^0.0.8
+44 verbose lock gulp-autoprefixer@^0.0.8 /usr/local/google/home/mkearney/.npm/3fd85b9a-gulp-autoprefixer-0-0-8.lock
+45 info addNameTag [ 'gulp', '^3.8.5' ]
+46 verbose cache add [ 'gulp-csso@^0.2.9', null ]
+47 verbose cache add name=undefined spec="gulp-csso@^0.2.9" args=["gulp-csso@^0.2.9",null]
+48 verbose parsed url { protocol: null,
+48 verbose parsed url   slashes: null,
+48 verbose parsed url   auth: null,
+48 verbose parsed url   host: null,
+48 verbose parsed url   port: null,
+48 verbose parsed url   hostname: null,
+48 verbose parsed url   hash: null,
+48 verbose parsed url   search: null,
+48 verbose parsed url   query: null,
+48 verbose parsed url   pathname: 'gulp-csso@^0.2.9',
+48 verbose parsed url   path: 'gulp-csso@^0.2.9',
+48 verbose parsed url   href: 'gulp-csso@^0.2.9' }
+49 verbose cache add name="gulp-csso" spec="^0.2.9" args=["gulp-csso","^0.2.9"]
+50 verbose parsed url { protocol: null,
+50 verbose parsed url   slashes: null,
+50 verbose parsed url   auth: null,
+50 verbose parsed url   host: null,
+50 verbose parsed url   port: null,
+50 verbose parsed url   hostname: null,
+50 verbose parsed url   hash: null,
+50 verbose parsed url   search: null,
+50 verbose parsed url   query: null,
+50 verbose parsed url   pathname: '^0.2.9',
+50 verbose parsed url   path: '^0.2.9',
+50 verbose parsed url   href: '^0.2.9' }
+51 verbose addNamed [ 'gulp-csso', '^0.2.9' ]
+52 verbose addNamed [ null, null ]
+53 silly lockFile edaef1d5-gulp-csso-0-2-9 gulp-csso@^0.2.9
+54 verbose lock gulp-csso@^0.2.9 /usr/local/google/home/mkearney/.npm/edaef1d5-gulp-csso-0-2-9.lock
+55 verbose cache add [ 'gulp-flatten@^0.0.2', null ]
+56 verbose cache add name=undefined spec="gulp-flatten@^0.0.2" args=["gulp-flatten@^0.0.2",null]
+57 verbose parsed url { protocol: null,
+57 verbose parsed url   slashes: null,
+57 verbose parsed url   auth: null,
+57 verbose parsed url   host: null,
+57 verbose parsed url   port: null,
+57 verbose parsed url   hostname: null,
+57 verbose parsed url   hash: null,
+57 verbose parsed url   search: null,
+57 verbose parsed url   query: null,
+57 verbose parsed url   pathname: 'gulp-flatten@^0.0.2',
+57 verbose parsed url   path: 'gulp-flatten@^0.0.2',
+57 verbose parsed url   href: 'gulp-flatten@^0.0.2' }
+58 verbose cache add name="gulp-flatten" spec="^0.0.2" args=["gulp-flatten","^0.0.2"]
+59 verbose parsed url { protocol: null,
+59 verbose parsed url   slashes: null,
+59 verbose parsed url   auth: null,
+59 verbose parsed url   host: null,
+59 verbose parsed url   port: null,
+59 verbose parsed url   hostname: null,
+59 verbose parsed url   hash: null,
+59 verbose parsed url   search: null,
+59 verbose parsed url   query: null,
+59 verbose parsed url   pathname: '^0.0.2',
+59 verbose parsed url   path: '^0.0.2',
+59 verbose parsed url   href: '^0.0.2' }
+60 verbose addNamed [ 'gulp-flatten', '^0.0.2' ]
+61 verbose addNamed [ null, null ]
+62 silly lockFile 35a17a7b-gulp-flatten-0-0-2 gulp-flatten@^0.0.2
+63 verbose lock gulp-flatten@^0.0.2 /usr/local/google/home/mkearney/.npm/35a17a7b-gulp-flatten-0-0-2.lock
+64 info addNameTag [ 'gulp-changed', '^0.4.0' ]
+65 silly lockFile 12fe7e21-gulp-cache-0-2-0 gulp-cache@^0.2.0
+66 verbose lock gulp-cache@^0.2.0 /usr/local/google/home/mkearney/.npm/12fe7e21-gulp-cache-0-2-0.lock
+67 info addNameTag [ 'gulp-autoprefixer', '^0.0.8' ]
+68 info addNameTag [ 'gulp-csso', '^0.2.9' ]
+69 verbose cache add [ 'gulp-if@^1.2.1', null ]
+70 verbose cache add name=undefined spec="gulp-if@^1.2.1" args=["gulp-if@^1.2.1",null]
+71 verbose parsed url { protocol: null,
+71 verbose parsed url   slashes: null,
+71 verbose parsed url   auth: null,
+71 verbose parsed url   host: null,
+71 verbose parsed url   port: null,
+71 verbose parsed url   hostname: null,
+71 verbose parsed url   hash: null,
+71 verbose parsed url   search: null,
+71 verbose parsed url   query: null,
+71 verbose parsed url   pathname: 'gulp-if@^1.2.1',
+71 verbose parsed url   path: 'gulp-if@^1.2.1',
+71 verbose parsed url   href: 'gulp-if@^1.2.1' }
+72 verbose cache add name="gulp-if" spec="^1.2.1" args=["gulp-if","^1.2.1"]
+73 verbose parsed url { protocol: null,
+73 verbose parsed url   slashes: null,
+73 verbose parsed url   auth: null,
+73 verbose parsed url   host: null,
+73 verbose parsed url   port: null,
+73 verbose parsed url   hostname: null,
+73 verbose parsed url   hash: null,
+73 verbose parsed url   search: null,
+73 verbose parsed url   query: null,
+73 verbose parsed url   pathname: '^1.2.1',
+73 verbose parsed url   path: '^1.2.1',
+73 verbose parsed url   href: '^1.2.1' }
+74 verbose addNamed [ 'gulp-if', '^1.2.1' ]
+75 verbose addNamed [ null, null ]
+76 silly lockFile 0fe6c0cf-gulp-if-1-2-1 gulp-if@^1.2.1
+77 verbose lock gulp-if@^1.2.1 /usr/local/google/home/mkearney/.npm/0fe6c0cf-gulp-if-1-2-1.lock
+78 verbose cache add [ 'gulp-imagemin@^0.6.1', null ]
+79 verbose cache add name=undefined spec="gulp-imagemin@^0.6.1" args=["gulp-imagemin@^0.6.1",null]
+80 verbose parsed url { protocol: null,
+80 verbose parsed url   slashes: null,
+80 verbose parsed url   auth: null,
+80 verbose parsed url   host: null,
+80 verbose parsed url   port: null,
+80 verbose parsed url   hostname: null,
+80 verbose parsed url   hash: null,
+80 verbose parsed url   search: null,
+80 verbose parsed url   query: null,
+80 verbose parsed url   pathname: 'gulp-imagemin@^0.6.1',
+80 verbose parsed url   path: 'gulp-imagemin@^0.6.1',
+80 verbose parsed url   href: 'gulp-imagemin@^0.6.1' }
+81 verbose cache add name="gulp-imagemin" spec="^0.6.1" args=["gulp-imagemin","^0.6.1"]
+82 verbose parsed url { protocol: null,
+82 verbose parsed url   slashes: null,
+82 verbose parsed url   auth: null,
+82 verbose parsed url   host: null,
+82 verbose parsed url   port: null,
+82 verbose parsed url   hostname: null,
+82 verbose parsed url   hash: null,
+82 verbose parsed url   search: null,
+82 verbose parsed url   query: null,
+82 verbose parsed url   pathname: '^0.6.1',
+82 verbose parsed url   path: '^0.6.1',
+82 verbose parsed url   href: '^0.6.1' }
+83 verbose addNamed [ 'gulp-imagemin', '^0.6.1' ]
+84 verbose addNamed [ null, null ]
+85 silly lockFile 9b5338c9-gulp-imagemin-0-6-1 gulp-imagemin@^0.6.1
+86 verbose lock gulp-imagemin@^0.6.1 /usr/local/google/home/mkearney/.npm/9b5338c9-gulp-imagemin-0-6-1.lock
+87 info addNameTag [ 'gulp-flatten', '^0.0.2' ]
+88 verbose url raw gulp-changed
+89 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-changed' ]
+90 verbose url resolved https://registry.npmjs.org/gulp-changed
+91 info trying registry request attempt 1 at 10:26:53
+92 http GET https://registry.npmjs.org/gulp-changed
+93 info addNameTag [ 'gulp-cache', '^0.2.0' ]
+94 info addNameTag [ 'gulp-if', '^1.2.1' ]
+95 verbose cache add [ 'gulp-jshint@^1.6.3', null ]
+96 verbose cache add name=undefined spec="gulp-jshint@^1.6.3" args=["gulp-jshint@^1.6.3",null]
+97 verbose parsed url { protocol: null,
+97 verbose parsed url   slashes: null,
+97 verbose parsed url   auth: null,
+97 verbose parsed url   host: null,
+97 verbose parsed url   port: null,
+97 verbose parsed url   hostname: null,
+97 verbose parsed url   hash: null,
+97 verbose parsed url   search: null,
+97 verbose parsed url   query: null,
+97 verbose parsed url   pathname: 'gulp-jshint@^1.6.3',
+97 verbose parsed url   path: 'gulp-jshint@^1.6.3',
+97 verbose parsed url   href: 'gulp-jshint@^1.6.3' }
+98 verbose cache add name="gulp-jshint" spec="^1.6.3" args=["gulp-jshint","^1.6.3"]
+99 verbose parsed url { protocol: null,
+99 verbose parsed url   slashes: null,
+99 verbose parsed url   auth: null,
+99 verbose parsed url   host: null,
+99 verbose parsed url   port: null,
+99 verbose parsed url   hostname: null,
+99 verbose parsed url   hash: null,
+99 verbose parsed url   search: null,
+99 verbose parsed url   query: null,
+99 verbose parsed url   pathname: '^1.6.3',
+99 verbose parsed url   path: '^1.6.3',
+99 verbose parsed url   href: '^1.6.3' }
+100 verbose addNamed [ 'gulp-jshint', '^1.6.3' ]
+101 verbose addNamed [ null, null ]
+102 silly lockFile a98b8d43-gulp-jshint-1-6-3 gulp-jshint@^1.6.3
+103 verbose lock gulp-jshint@^1.6.3 /usr/local/google/home/mkearney/.npm/a98b8d43-gulp-jshint-1-6-3.lock
+104 verbose cache add [ 'gulp-load-plugins@^0.5.3', null ]
+105 verbose cache add name=undefined spec="gulp-load-plugins@^0.5.3" args=["gulp-load-plugins@^0.5.3",null]
+106 verbose parsed url { protocol: null,
+106 verbose parsed url   slashes: null,
+106 verbose parsed url   auth: null,
+106 verbose parsed url   host: null,
+106 verbose parsed url   port: null,
+106 verbose parsed url   hostname: null,
+106 verbose parsed url   hash: null,
+106 verbose parsed url   search: null,
+106 verbose parsed url   query: null,
+106 verbose parsed url   pathname: 'gulp-load-plugins@^0.5.3',
+106 verbose parsed url   path: 'gulp-load-plugins@^0.5.3',
+106 verbose parsed url   href: 'gulp-load-plugins@^0.5.3' }
+107 verbose cache add name="gulp-load-plugins" spec="^0.5.3" args=["gulp-load-plugins","^0.5.3"]
+108 verbose parsed url { protocol: null,
+108 verbose parsed url   slashes: null,
+108 verbose parsed url   auth: null,
+108 verbose parsed url   host: null,
+108 verbose parsed url   port: null,
+108 verbose parsed url   hostname: null,
+108 verbose parsed url   hash: null,
+108 verbose parsed url   search: null,
+108 verbose parsed url   query: null,
+108 verbose parsed url   pathname: '^0.5.3',
+108 verbose parsed url   path: '^0.5.3',
+108 verbose parsed url   href: '^0.5.3' }
+109 verbose addNamed [ 'gulp-load-plugins', '^0.5.3' ]
+110 verbose addNamed [ null, null ]
+111 silly lockFile 09123d82-gulp-load-plugins-0-5-3 gulp-load-plugins@^0.5.3
+112 verbose lock gulp-load-plugins@^0.5.3 /usr/local/google/home/mkearney/.npm/09123d82-gulp-load-plugins-0-5-3.lock
+113 verbose cache add [ 'gulp-minify-html@^0.1.4', null ]
+114 verbose cache add name=undefined spec="gulp-minify-html@^0.1.4" args=["gulp-minify-html@^0.1.4",null]
+115 verbose parsed url { protocol: null,
+115 verbose parsed url   slashes: null,
+115 verbose parsed url   auth: null,
+115 verbose parsed url   host: null,
+115 verbose parsed url   port: null,
+115 verbose parsed url   hostname: null,
+115 verbose parsed url   hash: null,
+115 verbose parsed url   search: null,
+115 verbose parsed url   query: null,
+115 verbose parsed url   pathname: 'gulp-minify-html@^0.1.4',
+115 verbose parsed url   path: 'gulp-minify-html@^0.1.4',
+115 verbose parsed url   href: 'gulp-minify-html@^0.1.4' }
+116 verbose cache add name="gulp-minify-html" spec="^0.1.4" args=["gulp-minify-html","^0.1.4"]
+117 verbose parsed url { protocol: null,
+117 verbose parsed url   slashes: null,
+117 verbose parsed url   auth: null,
+117 verbose parsed url   host: null,
+117 verbose parsed url   port: null,
+117 verbose parsed url   hostname: null,
+117 verbose parsed url   hash: null,
+117 verbose parsed url   search: null,
+117 verbose parsed url   query: null,
+117 verbose parsed url   pathname: '^0.1.4',
+117 verbose parsed url   path: '^0.1.4',
+117 verbose parsed url   href: '^0.1.4' }
+118 verbose addNamed [ 'gulp-minify-html', '^0.1.4' ]
+119 verbose addNamed [ null, null ]
+120 silly lockFile 621f5112-gulp-minify-html-0-1-4 gulp-minify-html@^0.1.4
+121 verbose lock gulp-minify-html@^0.1.4 /usr/local/google/home/mkearney/.npm/621f5112-gulp-minify-html-0-1-4.lock
+122 verbose cache add [ 'gulp-replace@^0.4.0', null ]
+123 verbose cache add name=undefined spec="gulp-replace@^0.4.0" args=["gulp-replace@^0.4.0",null]
+124 verbose parsed url { protocol: null,
+124 verbose parsed url   slashes: null,
+124 verbose parsed url   auth: null,
+124 verbose parsed url   host: null,
+124 verbose parsed url   port: null,
+124 verbose parsed url   hostname: null,
+124 verbose parsed url   hash: null,
+124 verbose parsed url   search: null,
+124 verbose parsed url   query: null,
+124 verbose parsed url   pathname: 'gulp-replace@^0.4.0',
+124 verbose parsed url   path: 'gulp-replace@^0.4.0',
+124 verbose parsed url   href: 'gulp-replace@^0.4.0' }
+125 verbose cache add name="gulp-replace" spec="^0.4.0" args=["gulp-replace","^0.4.0"]
+126 verbose parsed url { protocol: null,
+126 verbose parsed url   slashes: null,
+126 verbose parsed url   auth: null,
+126 verbose parsed url   host: null,
+126 verbose parsed url   port: null,
+126 verbose parsed url   hostname: null,
+126 verbose parsed url   hash: null,
+126 verbose parsed url   search: null,
+126 verbose parsed url   query: null,
+126 verbose parsed url   pathname: '^0.4.0',
+126 verbose parsed url   path: '^0.4.0',
+126 verbose parsed url   href: '^0.4.0' }
+127 verbose addNamed [ 'gulp-replace', '^0.4.0' ]
+128 verbose addNamed [ null, null ]
+129 silly lockFile 2fd479cc-gulp-replace-0-4-0 gulp-replace@^0.4.0
+130 verbose lock gulp-replace@^0.4.0 /usr/local/google/home/mkearney/.npm/2fd479cc-gulp-replace-0-4-0.lock
+131 verbose cache add [ 'gulp-ruby-sass@^0.5.0', null ]
+132 verbose cache add name=undefined spec="gulp-ruby-sass@^0.5.0" args=["gulp-ruby-sass@^0.5.0",null]
+133 verbose parsed url { protocol: null,
+133 verbose parsed url   slashes: null,
+133 verbose parsed url   auth: null,
+133 verbose parsed url   host: null,
+133 verbose parsed url   port: null,
+133 verbose parsed url   hostname: null,
+133 verbose parsed url   hash: null,
+133 verbose parsed url   search: null,
+133 verbose parsed url   query: null,
+133 verbose parsed url   pathname: 'gulp-ruby-sass@^0.5.0',
+133 verbose parsed url   path: 'gulp-ruby-sass@^0.5.0',
+133 verbose parsed url   href: 'gulp-ruby-sass@^0.5.0' }
+134 verbose cache add name="gulp-ruby-sass" spec="^0.5.0" args=["gulp-ruby-sass","^0.5.0"]
+135 verbose parsed url { protocol: null,
+135 verbose parsed url   slashes: null,
+135 verbose parsed url   auth: null,
+135 verbose parsed url   host: null,
+135 verbose parsed url   port: null,
+135 verbose parsed url   hostname: null,
+135 verbose parsed url   hash: null,
+135 verbose parsed url   search: null,
+135 verbose parsed url   query: null,
+135 verbose parsed url   pathname: '^0.5.0',
+135 verbose parsed url   path: '^0.5.0',
+135 verbose parsed url   href: '^0.5.0' }
+136 verbose addNamed [ 'gulp-ruby-sass', '^0.5.0' ]
+137 verbose addNamed [ null, null ]
+138 silly lockFile 391db5b4-gulp-ruby-sass-0-5-0 gulp-ruby-sass@^0.5.0
+139 verbose lock gulp-ruby-sass@^0.5.0 /usr/local/google/home/mkearney/.npm/391db5b4-gulp-ruby-sass-0-5-0.lock
+140 verbose cache add [ 'gulp-size@^0.4.0', null ]
+141 verbose cache add name=undefined spec="gulp-size@^0.4.0" args=["gulp-size@^0.4.0",null]
+142 verbose parsed url { protocol: null,
+142 verbose parsed url   slashes: null,
+142 verbose parsed url   auth: null,
+142 verbose parsed url   host: null,
+142 verbose parsed url   port: null,
+142 verbose parsed url   hostname: null,
+142 verbose parsed url   hash: null,
+142 verbose parsed url   search: null,
+142 verbose parsed url   query: null,
+142 verbose parsed url   pathname: 'gulp-size@^0.4.0',
+142 verbose parsed url   path: 'gulp-size@^0.4.0',
+142 verbose parsed url   href: 'gulp-size@^0.4.0' }
+143 verbose cache add name="gulp-size" spec="^0.4.0" args=["gulp-size","^0.4.0"]
+144 verbose parsed url { protocol: null,
+144 verbose parsed url   slashes: null,
+144 verbose parsed url   auth: null,
+144 verbose parsed url   host: null,
+144 verbose parsed url   port: null,
+144 verbose parsed url   hostname: null,
+144 verbose parsed url   hash: null,
+144 verbose parsed url   search: null,
+144 verbose parsed url   query: null,
+144 verbose parsed url   pathname: '^0.4.0',
+144 verbose parsed url   path: '^0.4.0',
+144 verbose parsed url   href: '^0.4.0' }
+145 verbose addNamed [ 'gulp-size', '^0.4.0' ]
+146 verbose addNamed [ null, null ]
+147 silly lockFile 318a81ca-gulp-size-0-4-0 gulp-size@^0.4.0
+148 verbose lock gulp-size@^0.4.0 /usr/local/google/home/mkearney/.npm/318a81ca-gulp-size-0-4-0.lock
+149 verbose cache add [ 'gulp-uglify@^0.3.1', null ]
+150 verbose cache add name=undefined spec="gulp-uglify@^0.3.1" args=["gulp-uglify@^0.3.1",null]
+151 verbose parsed url { protocol: null,
+151 verbose parsed url   slashes: null,
+151 verbose parsed url   auth: null,
+151 verbose parsed url   host: null,
+151 verbose parsed url   port: null,
+151 verbose parsed url   hostname: null,
+151 verbose parsed url   hash: null,
+151 verbose parsed url   search: null,
+151 verbose parsed url   query: null,
+151 verbose parsed url   pathname: 'gulp-uglify@^0.3.1',
+151 verbose parsed url   path: 'gulp-uglify@^0.3.1',
+151 verbose parsed url   href: 'gulp-uglify@^0.3.1' }
+152 verbose cache add name="gulp-uglify" spec="^0.3.1" args=["gulp-uglify","^0.3.1"]
+153 verbose parsed url { protocol: null,
+153 verbose parsed url   slashes: null,
+153 verbose parsed url   auth: null,
+153 verbose parsed url   host: null,
+153 verbose parsed url   port: null,
+153 verbose parsed url   hostname: null,
+153 verbose parsed url   hash: null,
+153 verbose parsed url   search: null,
+153 verbose parsed url   query: null,
+153 verbose parsed url   pathname: '^0.3.1',
+153 verbose parsed url   path: '^0.3.1',
+153 verbose parsed url   href: '^0.3.1' }
+154 verbose addNamed [ 'gulp-uglify', '^0.3.1' ]
+155 verbose addNamed [ null, null ]
+156 silly lockFile 965066dc-gulp-uglify-0-3-1 gulp-uglify@^0.3.1
+157 verbose lock gulp-uglify@^0.3.1 /usr/local/google/home/mkearney/.npm/965066dc-gulp-uglify-0-3-1.lock
+158 verbose cache add [ 'gulp-uncss@^0.4.4', null ]
+159 verbose cache add name=undefined spec="gulp-uncss@^0.4.4" args=["gulp-uncss@^0.4.4",null]
+160 verbose parsed url { protocol: null,
+160 verbose parsed url   slashes: null,
+160 verbose parsed url   auth: null,
+160 verbose parsed url   host: null,
+160 verbose parsed url   port: null,
+160 verbose parsed url   hostname: null,
+160 verbose parsed url   hash: null,
+160 verbose parsed url   search: null,
+160 verbose parsed url   query: null,
+160 verbose parsed url   pathname: 'gulp-uncss@^0.4.4',
+160 verbose parsed url   path: 'gulp-uncss@^0.4.4',
+160 verbose parsed url   href: 'gulp-uncss@^0.4.4' }
+161 verbose cache add name="gulp-uncss" spec="^0.4.4" args=["gulp-uncss","^0.4.4"]
+162 verbose parsed url { protocol: null,
+162 verbose parsed url   slashes: null,
+162 verbose parsed url   auth: null,
+162 verbose parsed url   host: null,
+162 verbose parsed url   port: null,
+162 verbose parsed url   hostname: null,
+162 verbose parsed url   hash: null,
+162 verbose parsed url   search: null,
+162 verbose parsed url   query: null,
+162 verbose parsed url   pathname: '^0.4.4',
+162 verbose parsed url   path: '^0.4.4',
+162 verbose parsed url   href: '^0.4.4' }
+163 verbose addNamed [ 'gulp-uncss', '^0.4.4' ]
+164 verbose addNamed [ null, null ]
+165 silly lockFile 49195233-gulp-uncss-0-4-4 gulp-uncss@^0.4.4
+166 verbose lock gulp-uncss@^0.4.4 /usr/local/google/home/mkearney/.npm/49195233-gulp-uncss-0-4-4.lock
+167 verbose cache add [ 'gulp-useref@^0.5.0', null ]
+168 verbose cache add name=undefined spec="gulp-useref@^0.5.0" args=["gulp-useref@^0.5.0",null]
+169 verbose parsed url { protocol: null,
+169 verbose parsed url   slashes: null,
+169 verbose parsed url   auth: null,
+169 verbose parsed url   host: null,
+169 verbose parsed url   port: null,
+169 verbose parsed url   hostname: null,
+169 verbose parsed url   hash: null,
+169 verbose parsed url   search: null,
+169 verbose parsed url   query: null,
+169 verbose parsed url   pathname: 'gulp-useref@^0.5.0',
+169 verbose parsed url   path: 'gulp-useref@^0.5.0',
+169 verbose parsed url   href: 'gulp-useref@^0.5.0' }
+170 verbose cache add name="gulp-useref" spec="^0.5.0" args=["gulp-useref","^0.5.0"]
+171 verbose parsed url { protocol: null,
+171 verbose parsed url   slashes: null,
+171 verbose parsed url   auth: null,
+171 verbose parsed url   host: null,
+171 verbose parsed url   port: null,
+171 verbose parsed url   hostname: null,
+171 verbose parsed url   hash: null,
+171 verbose parsed url   search: null,
+171 verbose parsed url   query: null,
+171 verbose parsed url   pathname: '^0.5.0',
+171 verbose parsed url   path: '^0.5.0',
+171 verbose parsed url   href: '^0.5.0' }
+172 verbose addNamed [ 'gulp-useref', '^0.5.0' ]
+173 verbose addNamed [ null, null ]
+174 silly lockFile c34a6738-gulp-useref-0-5-0 gulp-useref@^0.5.0
+175 verbose lock gulp-useref@^0.5.0 /usr/local/google/home/mkearney/.npm/c34a6738-gulp-useref-0-5-0.lock
+176 verbose cache add [ 'jshint-stylish@^0.3.0', null ]
+177 verbose cache add name=undefined spec="jshint-stylish@^0.3.0" args=["jshint-stylish@^0.3.0",null]
+178 verbose parsed url { protocol: null,
+178 verbose parsed url   slashes: null,
+178 verbose parsed url   auth: null,
+178 verbose parsed url   host: null,
+178 verbose parsed url   port: null,
+178 verbose parsed url   hostname: null,
+178 verbose parsed url   hash: null,
+178 verbose parsed url   search: null,
+178 verbose parsed url   query: null,
+178 verbose parsed url   pathname: 'jshint-stylish@^0.3.0',
+178 verbose parsed url   path: 'jshint-stylish@^0.3.0',
+178 verbose parsed url   href: 'jshint-stylish@^0.3.0' }
+179 verbose cache add name="jshint-stylish" spec="^0.3.0" args=["jshint-stylish","^0.3.0"]
+180 verbose parsed url { protocol: null,
+180 verbose parsed url   slashes: null,
+180 verbose parsed url   auth: null,
+180 verbose parsed url   host: null,
+180 verbose parsed url   port: null,
+180 verbose parsed url   hostname: null,
+180 verbose parsed url   hash: null,
+180 verbose parsed url   search: null,
+180 verbose parsed url   query: null,
+180 verbose parsed url   pathname: '^0.3.0',
+180 verbose parsed url   path: '^0.3.0',
+180 verbose parsed url   href: '^0.3.0' }
+181 verbose addNamed [ 'jshint-stylish', '^0.3.0' ]
+182 verbose addNamed [ null, null ]
+183 silly lockFile f9df7c65-jshint-stylish-0-3-0 jshint-stylish@^0.3.0
+184 verbose lock jshint-stylish@^0.3.0 /usr/local/google/home/mkearney/.npm/f9df7c65-jshint-stylish-0-3-0.lock
+185 verbose cache add [ 'opn@^0.1.2', null ]
+186 verbose cache add name=undefined spec="opn@^0.1.2" args=["opn@^0.1.2",null]
+187 verbose parsed url { protocol: null,
+187 verbose parsed url   slashes: null,
+187 verbose parsed url   auth: null,
+187 verbose parsed url   host: null,
+187 verbose parsed url   port: null,
+187 verbose parsed url   hostname: null,
+187 verbose parsed url   hash: null,
+187 verbose parsed url   search: null,
+187 verbose parsed url   query: null,
+187 verbose parsed url   pathname: 'opn@^0.1.2',
+187 verbose parsed url   path: 'opn@^0.1.2',
+187 verbose parsed url   href: 'opn@^0.1.2' }
+188 verbose cache add name="opn" spec="^0.1.2" args=["opn","^0.1.2"]
+189 verbose parsed url { protocol: null,
+189 verbose parsed url   slashes: null,
+189 verbose parsed url   auth: null,
+189 verbose parsed url   host: null,
+189 verbose parsed url   port: null,
+189 verbose parsed url   hostname: null,
+189 verbose parsed url   hash: null,
+189 verbose parsed url   search: null,
+189 verbose parsed url   query: null,
+189 verbose parsed url   pathname: '^0.1.2',
+189 verbose parsed url   path: '^0.1.2',
+189 verbose parsed url   href: '^0.1.2' }
+190 verbose addNamed [ 'opn', '^0.1.2' ]
+191 verbose addNamed [ null, null ]
+192 silly lockFile 12270387-opn-0-1-2 opn@^0.1.2
+193 verbose lock opn@^0.1.2 /usr/local/google/home/mkearney/.npm/12270387-opn-0-1-2.lock
+194 verbose cache add [ 'psi@^0.1.1', null ]
+195 verbose cache add name=undefined spec="psi@^0.1.1" args=["psi@^0.1.1",null]
+196 verbose parsed url { protocol: null,
+196 verbose parsed url   slashes: null,
+196 verbose parsed url   auth: null,
+196 verbose parsed url   host: null,
+196 verbose parsed url   port: null,
+196 verbose parsed url   hostname: null,
+196 verbose parsed url   hash: null,
+196 verbose parsed url   search: null,
+196 verbose parsed url   query: null,
+196 verbose parsed url   pathname: 'psi@^0.1.1',
+196 verbose parsed url   path: 'psi@^0.1.1',
+196 verbose parsed url   href: 'psi@^0.1.1' }
+197 verbose cache add name="psi" spec="^0.1.1" args=["psi","^0.1.1"]
+198 verbose parsed url { protocol: null,
+198 verbose parsed url   slashes: null,
+198 verbose parsed url   auth: null,
+198 verbose parsed url   host: null,
+198 verbose parsed url   port: null,
+198 verbose parsed url   hostname: null,
+198 verbose parsed url   hash: null,
+198 verbose parsed url   search: null,
+198 verbose parsed url   query: null,
+198 verbose parsed url   pathname: '^0.1.1',
+198 verbose parsed url   path: '^0.1.1',
+198 verbose parsed url   href: '^0.1.1' }
+199 verbose addNamed [ 'psi', '^0.1.1' ]
+200 verbose addNamed [ null, null ]
+201 silly lockFile 5e013415-psi-0-1-1 psi@^0.1.1
+202 verbose lock psi@^0.1.1 /usr/local/google/home/mkearney/.npm/5e013415-psi-0-1-1.lock
+203 verbose cache add [ 'require-dir@^0.1.0', null ]
+204 verbose cache add name=undefined spec="require-dir@^0.1.0" args=["require-dir@^0.1.0",null]
+205 verbose parsed url { protocol: null,
+205 verbose parsed url   slashes: null,
+205 verbose parsed url   auth: null,
+205 verbose parsed url   host: null,
+205 verbose parsed url   port: null,
+205 verbose parsed url   hostname: null,
+205 verbose parsed url   hash: null,
+205 verbose parsed url   search: null,
+205 verbose parsed url   query: null,
+205 verbose parsed url   pathname: 'require-dir@^0.1.0',
+205 verbose parsed url   path: 'require-dir@^0.1.0',
+205 verbose parsed url   href: 'require-dir@^0.1.0' }
+206 verbose cache add name="require-dir" spec="^0.1.0" args=["require-dir","^0.1.0"]
+207 verbose parsed url { protocol: null,
+207 verbose parsed url   slashes: null,
+207 verbose parsed url   auth: null,
+207 verbose parsed url   host: null,
+207 verbose parsed url   port: null,
+207 verbose parsed url   hostname: null,
+207 verbose parsed url   hash: null,
+207 verbose parsed url   search: null,
+207 verbose parsed url   query: null,
+207 verbose parsed url   pathname: '^0.1.0',
+207 verbose parsed url   path: '^0.1.0',
+207 verbose parsed url   href: '^0.1.0' }
+208 verbose addNamed [ 'require-dir', '^0.1.0' ]
+209 verbose addNamed [ null, null ]
+210 silly lockFile 9cec41da-require-dir-0-1-0 require-dir@^0.1.0
+211 verbose lock require-dir@^0.1.0 /usr/local/google/home/mkearney/.npm/9cec41da-require-dir-0-1-0.lock
+212 verbose cache add [ 'run-sequence@^0.3.6', null ]
+213 verbose cache add name=undefined spec="run-sequence@^0.3.6" args=["run-sequence@^0.3.6",null]
+214 verbose parsed url { protocol: null,
+214 verbose parsed url   slashes: null,
+214 verbose parsed url   auth: null,
+214 verbose parsed url   host: null,
+214 verbose parsed url   port: null,
+214 verbose parsed url   hostname: null,
+214 verbose parsed url   hash: null,
+214 verbose parsed url   search: null,
+214 verbose parsed url   query: null,
+214 verbose parsed url   pathname: 'run-sequence@^0.3.6',
+214 verbose parsed url   path: 'run-sequence@^0.3.6',
+214 verbose parsed url   href: 'run-sequence@^0.3.6' }
+215 verbose cache add name="run-sequence" spec="^0.3.6" args=["run-sequence","^0.3.6"]
+216 verbose parsed url { protocol: null,
+216 verbose parsed url   slashes: null,
+216 verbose parsed url   auth: null,
+216 verbose parsed url   host: null,
+216 verbose parsed url   port: null,
+216 verbose parsed url   hostname: null,
+216 verbose parsed url   hash: null,
+216 verbose parsed url   search: null,
+216 verbose parsed url   query: null,
+216 verbose parsed url   pathname: '^0.3.6',
+216 verbose parsed url   path: '^0.3.6',
+216 verbose parsed url   href: '^0.3.6' }
+217 verbose addNamed [ 'run-sequence', '^0.3.6' ]
+218 verbose addNamed [ null, null ]
+219 silly lockFile 9d9b985e-run-sequence-0-3-6 run-sequence@^0.3.6
+220 verbose lock run-sequence@^0.3.6 /usr/local/google/home/mkearney/.npm/9d9b985e-run-sequence-0-3-6.lock
+221 info addNameTag [ 'gulp-imagemin', '^0.6.1' ]
+222 verbose url raw gulp-if
+223 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-if' ]
+224 verbose url resolved https://registry.npmjs.org/gulp-if
+225 info trying registry request attempt 1 at 10:26:54
+226 http GET https://registry.npmjs.org/gulp-if
+227 info addNameTag [ 'gulp-jshint', '^1.6.3' ]
+228 info addNameTag [ 'gulp-load-plugins', '^0.5.3' ]
+229 info addNameTag [ 'gulp-minify-html', '^0.1.4' ]
+230 info addNameTag [ 'gulp-replace', '^0.4.0' ]
+231 info addNameTag [ 'gulp-ruby-sass', '^0.5.0' ]
+232 info addNameTag [ 'gulp-size', '^0.4.0' ]
+233 info addNameTag [ 'gulp-uglify', '^0.3.1' ]
+234 info addNameTag [ 'gulp-uncss', '^0.4.4' ]
+235 info addNameTag [ 'gulp-useref', '^0.5.0' ]
+236 info addNameTag [ 'jshint-stylish', '^0.3.0' ]
+237 info addNameTag [ 'opn', '^0.1.2' ]
+238 info addNameTag [ 'psi', '^0.1.1' ]
+239 info addNameTag [ 'require-dir', '^0.1.0' ]
+240 info addNameTag [ 'run-sequence', '^0.3.6' ]
+241 verbose cache add [ 'browser-sync@^1.1.2', null ]
+242 verbose cache add name=undefined spec="browser-sync@^1.1.2" args=["browser-sync@^1.1.2",null]
+243 verbose parsed url { protocol: null,
+243 verbose parsed url   slashes: null,
+243 verbose parsed url   auth: null,
+243 verbose parsed url   host: null,
+243 verbose parsed url   port: null,
+243 verbose parsed url   hostname: null,
+243 verbose parsed url   hash: null,
+243 verbose parsed url   search: null,
+243 verbose parsed url   query: null,
+243 verbose parsed url   pathname: 'browser-sync@^1.1.2',
+243 verbose parsed url   path: 'browser-sync@^1.1.2',
+243 verbose parsed url   href: 'browser-sync@^1.1.2' }
+244 verbose cache add name="browser-sync" spec="^1.1.2" args=["browser-sync","^1.1.2"]
+245 verbose parsed url { protocol: null,
+245 verbose parsed url   slashes: null,
+245 verbose parsed url   auth: null,
+245 verbose parsed url   host: null,
+245 verbose parsed url   port: null,
+245 verbose parsed url   hostname: null,
+245 verbose parsed url   hash: null,
+245 verbose parsed url   search: null,
+245 verbose parsed url   query: null,
+245 verbose parsed url   pathname: '^1.1.2',
+245 verbose parsed url   path: '^1.1.2',
+245 verbose parsed url   href: '^1.1.2' }
+246 verbose addNamed [ 'browser-sync', '^1.1.2' ]
+247 verbose addNamed [ null, null ]
+248 silly lockFile e4da3c5f-browser-sync-1-1-2 browser-sync@^1.1.2
+249 verbose lock browser-sync@^1.1.2 /usr/local/google/home/mkearney/.npm/e4da3c5f-browser-sync-1-1-2.lock
+250 verbose cache add [ 'del@^0.1.1', null ]
+251 verbose cache add name=undefined spec="del@^0.1.1" args=["del@^0.1.1",null]
+252 verbose parsed url { protocol: null,
+252 verbose parsed url   slashes: null,
+252 verbose parsed url   auth: null,
+252 verbose parsed url   host: null,
+252 verbose parsed url   port: null,
+252 verbose parsed url   hostname: null,
+252 verbose parsed url   hash: null,
+252 verbose parsed url   search: null,
+252 verbose parsed url   query: null,
+252 verbose parsed url   pathname: 'del@^0.1.1',
+252 verbose parsed url   path: 'del@^0.1.1',
+252 verbose parsed url   href: 'del@^0.1.1' }
+253 verbose cache add name="del" spec="^0.1.1" args=["del","^0.1.1"]
+254 verbose parsed url { protocol: null,
+254 verbose parsed url   slashes: null,
+254 verbose parsed url   auth: null,
+254 verbose parsed url   host: null,
+254 verbose parsed url   port: null,
+254 verbose parsed url   hostname: null,
+254 verbose parsed url   hash: null,
+254 verbose parsed url   search: null,
+254 verbose parsed url   query: null,
+254 verbose parsed url   pathname: '^0.1.1',
+254 verbose parsed url   path: '^0.1.1',
+254 verbose parsed url   href: '^0.1.1' }
+255 verbose addNamed [ 'del', '^0.1.1' ]
+256 verbose addNamed [ null, null ]
+257 silly lockFile 7f719719-del-0-1-1 del@^0.1.1
+258 verbose lock del@^0.1.1 /usr/local/google/home/mkearney/.npm/7f719719-del-0-1-1.lock
+259 verbose url raw gulp-minify-html
+260 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-minify-html' ]
+261 verbose url resolved https://registry.npmjs.org/gulp-minify-html
+262 info trying registry request attempt 1 at 10:26:54
+263 http GET https://registry.npmjs.org/gulp-minify-html
+264 verbose url raw gulp-replace
+265 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-replace' ]
+266 verbose url resolved https://registry.npmjs.org/gulp-replace
+267 info trying registry request attempt 1 at 10:26:54
+268 http GET https://registry.npmjs.org/gulp-replace
+269 verbose url raw gulp-uncss
+270 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-uncss' ]
+271 verbose url resolved https://registry.npmjs.org/gulp-uncss
+272 info trying registry request attempt 1 at 10:26:54
+273 http GET https://registry.npmjs.org/gulp-uncss
+274 verbose url raw psi
+275 verbose url resolving [ 'https://registry.npmjs.org/', './psi' ]
+276 verbose url resolved https://registry.npmjs.org/psi
+277 info trying registry request attempt 1 at 10:26:54
+278 http GET https://registry.npmjs.org/psi
+279 verbose url raw require-dir
+280 verbose url resolving [ 'https://registry.npmjs.org/', './require-dir' ]
+281 verbose url resolved https://registry.npmjs.org/require-dir
+282 info trying registry request attempt 1 at 10:26:54
+283 http GET https://registry.npmjs.org/require-dir
+284 verbose url raw run-sequence
+285 verbose url resolving [ 'https://registry.npmjs.org/', './run-sequence' ]
+286 verbose url resolved https://registry.npmjs.org/run-sequence
+287 info trying registry request attempt 1 at 10:26:54
+288 http GET https://registry.npmjs.org/run-sequence
+289 info addNameTag [ 'browser-sync', '^1.1.2' ]
+290 info addNameTag [ 'del', '^0.1.1' ]
+291 verbose url raw del
+292 verbose url resolving [ 'https://registry.npmjs.org/', './del' ]
+293 verbose url resolved https://registry.npmjs.org/del
+294 info trying registry request attempt 1 at 10:26:54
+295 http GET https://registry.npmjs.org/del
+296 http 200 https://registry.npmjs.org/gulp-changed
+297 silly registry.get cb [ 200,
+297 silly registry.get   { date: 'Fri, 11 Jul 2014 17:26:54 GMT',
+297 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+297 silly registry.get     etag: '"C6YIUY6X58ONXCGGDC174XXZZ"',
+297 silly registry.get     'content-type': 'application/json',
+297 silly registry.get     'cache-control': 'max-age=30',
+297 silly registry.get     'content-length': '10586',
+297 silly registry.get     'accept-ranges': 'bytes',
+297 silly registry.get     via: '1.1 varnish',
+297 silly registry.get     age: '707',
+297 silly registry.get     'x-served-by': 'cache-sv61-SJC3',
+297 silly registry.get     'x-cache': 'MISS',
+297 silly registry.get     'x-cache-hits': '0',
+297 silly registry.get     'x-timer': 'S1405099614.028463,VS0,VE30',
+297 silly registry.get     vary: 'Accept',
+297 silly registry.get     'keep-alive': 'timeout=10, max=50',
+297 silly registry.get     connection: 'Keep-Alive' } ]
+298 verbose url raw gulp
+299 verbose url resolving [ 'https://registry.npmjs.org/', './gulp' ]
+300 verbose url resolved https://registry.npmjs.org/gulp
+301 info trying registry request attempt 1 at 10:26:54
+302 verbose etag "77ER0LKBHNB2EZ7CUBA8P25HW"
+303 http GET https://registry.npmjs.org/gulp
+304 verbose url raw gulp-autoprefixer
+305 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-autoprefixer' ]
+306 verbose url resolved https://registry.npmjs.org/gulp-autoprefixer
+307 info trying registry request attempt 1 at 10:26:54
+308 verbose etag "QEI7NS1OVRGJDWA8OQD0R1SQ"
+309 http GET https://registry.npmjs.org/gulp-autoprefixer
+310 http 200 https://registry.npmjs.org/psi
+311 silly registry.get cb [ 200,
+311 silly registry.get   { date: 'Fri, 11 Jul 2014 17:26:54 GMT',
+311 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+311 silly registry.get     etag: '"EQ31M1U7ISPA8D4XLJWV4WG7I"',
+311 silly registry.get     'content-type': 'application/json',
+311 silly registry.get     'cache-control': 'max-age=30',
+311 silly registry.get     'content-length': '10910',
+311 silly registry.get     'accept-ranges': 'bytes',
+311 silly registry.get     via: '1.1 varnish',
+311 silly registry.get     age: '704',
+311 silly registry.get     'x-served-by': 'cache-sv61-SJC3',
+311 silly registry.get     'x-cache': 'MISS',
+311 silly registry.get     'x-cache-hits': '0',
+311 silly registry.get     'x-timer': 'S1405099614.065133,VS0,VE30',
+311 silly registry.get     vary: 'Accept',
+311 silly registry.get     'keep-alive': 'timeout=10, max=49',
+311 silly registry.get     connection: 'Keep-Alive' } ]
+312 http 200 https://registry.npmjs.org/gulp-minify-html
+313 silly registry.get cb [ 200,
+313 silly registry.get   { date: 'Fri, 11 Jul 2014 17:26:54 GMT',
+313 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+313 silly registry.get     etag: '"8Q7JONH0X6J8EQFUX27JNZNXO"',
+313 silly registry.get     'content-type': 'application/json',
+313 silly registry.get     'cache-control': 'max-age=30',
+313 silly registry.get     'content-length': '9749',
+313 silly registry.get     'accept-ranges': 'bytes',
+313 silly registry.get     via: '1.1 varnish',
+313 silly registry.get     age: '18539',
+313 silly registry.get     'x-served-by': 'cache-lax1423-LAX',
+313 silly registry.get     'x-cache': 'HIT',
+313 silly registry.get     'x-cache-hits': '1',
+313 silly registry.get     'x-timer': 'S1405099614.061147,VS0,VE36',
+313 silly registry.get     vary: 'Accept',
+313 silly registry.get     'keep-alive': 'timeout=10, max=50',
+313 silly registry.get     connection: 'Keep-Alive' } ]
+314 http 200 https://registry.npmjs.org/gulp-if
+315 silly registry.get cb [ 200,
+315 silly registry.get   { date: 'Fri, 11 Jul 2014 17:26:54 GMT',
+315 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+315 silly registry.get     etag: '"8P0Z9P1WBLBE03QWI9TC8FJIR"',
+315 silly registry.get     'content-type': 'application/json',
+315 silly registry.get     'cache-control': 'max-age=30',
+315 silly registry.get     'content-length': '17317',
+315 silly registry.get     'accept-ranges': 'bytes',
+315 silly registry.get     via: '1.1 varnish',
+315 silly registry.get     age: '3194',
+315 silly registry.get     'x-served-by': 'cache-lax1422-LAX',
+315 silly registry.get     'x-cache': 'MISS',
+315 silly registry.get     'x-cache-hits': '0',
+315 silly registry.get     'x-timer': 'S1405099614.056244,VS0,VE36',
+315 silly registry.get     vary: 'Accept',
+315 silly registry.get     'keep-alive': 'timeout=10, max=50',
+315 silly registry.get     connection: 'Keep-Alive' } ]
+316 http 200 https://registry.npmjs.org/gulp-uncss
+317 silly registry.get cb [ 200,
+317 silly registry.get   { date: 'Fri, 11 Jul 2014 17:26:54 GMT',
+317 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+317 silly registry.get     etag: '"A9JF08S675HVFYSKOE8UQ1OTH"',
+317 silly registry.get     'content-type': 'application/json',
+317 silly registry.get     'cache-control': 'max-age=30',
+317 silly registry.get     'content-length': '21364',
+317 silly registry.get     'accept-ranges': 'bytes',
+317 silly registry.get     via: '1.1 varnish',
+317 silly registry.get     age: '13203',
+317 silly registry.get     'x-served-by': 'cache-sjc3126-SJC',
+317 silly registry.get     'x-cache': 'MISS',
+317 silly registry.get     'x-cache-hits': '0',
+317 silly registry.get     'x-timer': 'S1405099614.028634,VS0,VE94',
+317 silly registry.get     vary: 'Accept',
+317 silly registry.get     'keep-alive': 'timeout=10, max=50',
+317 silly registry.get     connection: 'Keep-Alive' } ]
+318 http 200 https://registry.npmjs.org/gulp
+319 silly registry.get cb [ 200,
+319 silly registry.get   { date: 'Fri, 11 Jul 2014 17:26:54 GMT',
+319 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+319 silly registry.get     etag: '"DPZ4V0HCBDJFFI90VWS2IVWOC"',
+319 silly registry.get     'content-type': 'application/json',
+319 silly registry.get     'cache-control': 'max-age=30',
+319 silly registry.get     'content-length': '85312',
+319 silly registry.get     'accept-ranges': 'bytes',
+319 silly registry.get     via: '1.1 varnish',
+319 silly registry.get     age: '3535',
+319 silly registry.get     'x-served-by': 'cache-sjc3126-SJC',
+319 silly registry.get     'x-cache': 'HIT',
+319 silly registry.get     'x-cache-hits': '1',
+319 silly registry.get     'x-timer': 'S1405099614.127534,VS0,VE0',
+319 silly registry.get     vary: 'Accept',
+319 silly registry.get     'keep-alive': 'timeout=10, max=49',
+319 silly registry.get     connection: 'Keep-Alive' } ]
+320 http 200 https://registry.npmjs.org/gulp-replace
+321 silly registry.get cb [ 200,
+321 silly registry.get   { date: 'Fri, 11 Jul 2014 17:26:54 GMT',
+321 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+321 silly registry.get     etag: '"ACAC2DKSRU75DSQU7AID4KON7"',
+321 silly registry.get     'content-type': 'application/json',
+321 silly registry.get     'cache-control': 'max-age=30',
+321 silly registry.get     'content-length': '7044',
+321 silly registry.get     'accept-ranges': 'bytes',
+321 silly registry.get     via: '1.1 varnish',
+321 silly registry.get     age: '8223',
+321 silly registry.get     'x-served-by': 'cache-lax1429-LAX',
+321 silly registry.get     'x-cache': 'MISS',
+321 silly registry.get     'x-cache-hits': '0',
+321 silly registry.get     'x-timer': 'S1405099614.060959,VS0,VE71',
+321 silly registry.get     vary: 'Accept',
+321 silly registry.get     'keep-alive': 'timeout=10, max=50',
+321 silly registry.get     connection: 'Keep-Alive' } ]
+322 http 200 https://registry.npmjs.org/require-dir
+323 silly registry.get cb [ 200,
+323 silly registry.get   { date: 'Fri, 11 Jul 2014 17:26:54 GMT',
+323 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+323 silly registry.get     etag: '"VJA8E233ZLNBYARDOG72CQO6"',
+323 silly registry.get     'content-type': 'application/json',
+323 silly registry.get     'cache-control': 'max-age=30',
+323 silly registry.get     'content-length': '4996',
+323 silly registry.get     'accept-ranges': 'bytes',
+323 silly registry.get     via: '1.1 varnish',
+323 silly registry.get     age: '705',
+323 silly registry.get     'x-served-by': 'cache-sv61-SJC3',
+323 silly registry.get     'x-cache': 'MISS',
+323 silly registry.get     'x-cache-hits': '0',
+323 silly registry.get     'x-timer': 'S1405099614.099555,VS0,VE37',
+323 silly registry.get     vary: 'Accept',
+323 silly registry.get     'keep-alive': 'timeout=10, max=48',
+323 silly registry.get     connection: 'Keep-Alive' } ]
+324 http 200 https://registry.npmjs.org/run-sequence
+325 silly registry.get cb [ 200,
+325 silly registry.get   { date: 'Fri, 11 Jul 2014 17:26:54 GMT',
+325 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+325 silly registry.get     etag: '"6PTKKJP7BZ3434WZ72TZF12G0"',
+325 silly registry.get     'content-type': 'application/json',
+325 silly registry.get     'cache-control': 'max-age=30',
+325 silly registry.get     'content-length': '10888',
+325 silly registry.get     'accept-ranges': 'bytes',
+325 silly registry.get     via: '1.1 varnish',
+325 silly registry.get     age: '3010',
+325 silly registry.get     'x-served-by': 'cache-lax1423-LAX',
+325 silly registry.get     'x-cache': 'HIT',
+325 silly registry.get     'x-cache-hits': '1',
+325 silly registry.get     'x-timer': 'S1405099614.111203,VS0,VE37',
+325 silly registry.get     vary: 'Accept',
+325 silly registry.get     'keep-alive': 'timeout=10, max=49',
+325 silly registry.get     connection: 'Keep-Alive' } ]
+326 http 200 https://registry.npmjs.org/del
+327 silly registry.get cb [ 200,
+327 silly registry.get   { date: 'Fri, 11 Jul 2014 17:26:54 GMT',
+327 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+327 silly registry.get     etag: '"9VBG8IRX04P5PGM4ST417LLER"',
+327 silly registry.get     'content-type': 'application/json',
+327 silly registry.get     'cache-control': 'max-age=30',
+327 silly registry.get     'content-length': '5076',
+327 silly registry.get     'accept-ranges': 'bytes',
+327 silly registry.get     via: '1.1 varnish',
+327 silly registry.get     age: '7025',
+327 silly registry.get     'x-served-by': 'cache-lax1422-LAX',
+327 silly registry.get     'x-cache': 'MISS',
+327 silly registry.get     'x-cache-hits': '0',
+327 silly registry.get     'x-timer': 'S1405099614.114524,VS0,VE73',
+327 silly registry.get     vary: 'Accept',
+327 silly registry.get     'keep-alive': 'timeout=10, max=49',
+327 silly registry.get     connection: 'Keep-Alive' } ]
+328 http 200 https://registry.npmjs.org/gulp-autoprefixer
+329 silly registry.get cb [ 200,
+329 silly registry.get   { date: 'Fri, 11 Jul 2014 17:26:54 GMT',
+329 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+329 silly registry.get     etag: '"MJX3P4GJNC2F08VYLKMHSK5S"',
+329 silly registry.get     'content-type': 'application/json',
+329 silly registry.get     'cache-control': 'max-age=30',
+329 silly registry.get     'content-length': '9795',
+329 silly registry.get     'accept-ranges': 'bytes',
+329 silly registry.get     via: '1.1 varnish',
+329 silly registry.get     age: '1469',
+329 silly registry.get     'x-served-by': 'cache-sjc3126-SJC',
+329 silly registry.get     'x-cache': 'HIT',
+329 silly registry.get     'x-cache-hits': '1',
+329 silly registry.get     'x-timer': 'S1405099614.136697,VS0,VE86',
+329 silly registry.get     vary: 'Accept',
+329 silly registry.get     'keep-alive': 'timeout=10, max=48',
+329 silly registry.get     connection: 'Keep-Alive' } ]
+330 verbose url raw gulp-csso
+331 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-csso' ]
+332 verbose url resolved https://registry.npmjs.org/gulp-csso
+333 info trying registry request attempt 1 at 10:26:54
+334 verbose etag "F3QG6WUNNRWYM6SESTTPYQZ6"
+335 http GET https://registry.npmjs.org/gulp-csso
+336 verbose url raw gulp-cache
+337 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-cache' ]
+338 verbose url resolved https://registry.npmjs.org/gulp-cache
+339 info trying registry request attempt 1 at 10:26:54
+340 verbose etag "DWUDH5OJWGFT4P8PF3BQJG559"
+341 http GET https://registry.npmjs.org/gulp-cache
+342 verbose url raw gulp-imagemin
+343 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-imagemin' ]
+344 verbose url resolved https://registry.npmjs.org/gulp-imagemin
+345 info trying registry request attempt 1 at 10:26:54
+346 verbose etag "58C90N52YHWUBAXS5B65YN9NR"
+347 http GET https://registry.npmjs.org/gulp-imagemin
+348 verbose url raw gulp-flatten
+349 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-flatten' ]
+350 verbose url resolved https://registry.npmjs.org/gulp-flatten
+351 info trying registry request attempt 1 at 10:26:54
+352 verbose etag "4QN42K9637T1J1OVG4G509L0I"
+353 http GET https://registry.npmjs.org/gulp-flatten
+354 verbose url raw gulp-jshint
+355 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-jshint' ]
+356 verbose url resolved https://registry.npmjs.org/gulp-jshint
+357 info trying registry request attempt 1 at 10:26:54
+358 verbose etag "1SZKRX66DL50ZBKAGHP66ZW2A"
+359 http GET https://registry.npmjs.org/gulp-jshint
+360 verbose url raw gulp-ruby-sass
+361 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-ruby-sass' ]
+362 verbose url resolved https://registry.npmjs.org/gulp-ruby-sass
+363 info trying registry request attempt 1 at 10:26:54
+364 verbose etag "3FQX7J9QGBWXYK15OUCUMLRIN"
+365 http GET https://registry.npmjs.org/gulp-ruby-sass
+366 verbose url raw gulp-uglify
+367 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-uglify' ]
+368 verbose url resolved https://registry.npmjs.org/gulp-uglify
+369 info trying registry request attempt 1 at 10:26:54
+370 verbose etag "7LBVCYD4SP1803CO1AXQSXSLQ"
+371 http GET https://registry.npmjs.org/gulp-uglify
+372 verbose url raw gulp-useref
+373 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-useref' ]
+374 verbose url resolved https://registry.npmjs.org/gulp-useref
+375 info trying registry request attempt 1 at 10:26:54
+376 verbose etag "6F6EG8A734U9RBSPYWCKOROWT"
+377 http GET https://registry.npmjs.org/gulp-useref
+378 verbose url raw gulp-load-plugins
+379 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-load-plugins' ]
+380 verbose url resolved https://registry.npmjs.org/gulp-load-plugins
+381 info trying registry request attempt 1 at 10:26:54
+382 verbose etag "2J10MRJBVPG0BWYA7JR4TSS7B"
+383 http GET https://registry.npmjs.org/gulp-load-plugins
+384 verbose url raw jshint-stylish
+385 verbose url resolving [ 'https://registry.npmjs.org/', './jshint-stylish' ]
+386 verbose url resolved https://registry.npmjs.org/jshint-stylish
+387 info trying registry request attempt 1 at 10:26:54
+388 verbose etag "24XQK3SUAEJIAI32TYXI3X6DM"
+389 http GET https://registry.npmjs.org/jshint-stylish
+390 verbose url raw gulp-size
+391 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-size' ]
+392 verbose url resolved https://registry.npmjs.org/gulp-size
+393 info trying registry request attempt 1 at 10:26:54
+394 verbose etag "A30CAK72ZY5E0K1EW0TCKQ2RY"
+395 http GET https://registry.npmjs.org/gulp-size
+396 verbose url raw opn
+397 verbose url resolving [ 'https://registry.npmjs.org/', './opn' ]
+398 verbose url resolved https://registry.npmjs.org/opn
+399 info trying registry request attempt 1 at 10:26:54
+400 verbose etag "79G5YZ1U850OWGYELFST2KOCO"
+401 http GET https://registry.npmjs.org/opn
+402 silly lockFile 55b4808a-gulp-changed-0-4-0 gulp-changed@^0.4.0
+403 silly lockFile 55b4808a-gulp-changed-0-4-0 gulp-changed@^0.4.0
+404 silly lockFile 5e013415-psi-0-1-1 psi@^0.1.1
+405 silly lockFile 5e013415-psi-0-1-1 psi@^0.1.1
+406 silly lockFile 621f5112-gulp-minify-html-0-1-4 gulp-minify-html@^0.1.4
+407 silly lockFile 621f5112-gulp-minify-html-0-1-4 gulp-minify-html@^0.1.4
+408 silly lockFile 0fe6c0cf-gulp-if-1-2-1 gulp-if@^1.2.1
+409 silly lockFile 0fe6c0cf-gulp-if-1-2-1 gulp-if@^1.2.1
+410 silly lockFile 49195233-gulp-uncss-0-4-4 gulp-uncss@^0.4.4
+411 silly lockFile 49195233-gulp-uncss-0-4-4 gulp-uncss@^0.4.4
+412 silly lockFile 2fd479cc-gulp-replace-0-4-0 gulp-replace@^0.4.0
+413 silly lockFile 2fd479cc-gulp-replace-0-4-0 gulp-replace@^0.4.0
+414 silly lockFile 9cec41da-require-dir-0-1-0 require-dir@^0.1.0
+415 silly lockFile 9cec41da-require-dir-0-1-0 require-dir@^0.1.0
+416 silly lockFile 9d9b985e-run-sequence-0-3-6 run-sequence@^0.3.6
+417 silly lockFile 9d9b985e-run-sequence-0-3-6 run-sequence@^0.3.6
+418 silly lockFile 7f719719-del-0-1-1 del@^0.1.1
+419 silly lockFile 7f719719-del-0-1-1 del@^0.1.1
+420 error Error: No compatible version found: gulp-changed@'^0.4.0'
+420 error Valid install targets:
+420 error ["0.1.0","0.2.0","0.2.1","0.3.0","0.4.0"]
+420 error     at installTargetsError (/usr/local/lib/node_modules/npm/lib/cache.js:682:10)
+420 error     at /usr/local/lib/node_modules/npm/lib/cache.js:597:10
+420 error     at saved (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:138:7)
+420 error     at Object.oncomplete (fs.js:93:15)
+421 error If you need help, you may report this log at:
+421 error     <http://github.com/isaacs/npm/issues>
+421 error or email it to:
+421 error     <npm-@googlegroups.com>
+422 error System Linux 3.2.5-gg1336
+423 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+424 error cwd /usr/local/google/home/mkearney/web-fundamentals-monetization/web-starter-kit/app
+425 error node -v v0.10.0
+426 error npm -v 1.2.14
+427 verbose exit [ 1, true ]
